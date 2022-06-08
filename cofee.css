@@ -1,0 +1,282 @@
+.header{
+    background: 	#3a0a04;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:-0.5rem 4%;
+    flex-direction: column-reverse;
+    border-bottom: white;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    
+  }
+  .header h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #FFFDD0;
+    margin-top: -56px;
+    margin-left: -376px;
+    text-transform: uppercase;
+  }
+  .header img{
+    margin-top: -6px;
+    margin-left: -450px;
+    height: 75px;
+    width: 67px;
+  }
+  
+  
+  .home{
+    height: 660px;
+    width: 1520px;
+    display: flex;
+    margin-top: -20px;
+    margin-left: -8px;
+    align-items: center;
+    background:url(./cofee/1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+  }
+  .home .content{
+    max-width: 60rem;
+    color:#381515;
+  }
+  
+  .home .content h3{
+    margin-left: 10px;
+    margin-bottom:15px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color:rgb(43, 15, 15);
+    font-family: 'Tapestry', cursive;
+  }
+  
+  .home .content p{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:rgb(43, 15, 15);
+    font-family: 'Tapestry', cursive;
+  }
+  .about .row{
+    display: flex-reverse;
+    height: 660px;
+    width: 1520px;
+    align-items: center;
+    background: #6f4e37;
+    flex-wrap: wrap;
+    
+  }
+  
+  .about .row .image{
+    flex:1 1 45rem;
+  }
+  
+  .about .row .image img{
+    width:377px;
+    height:412px;
+   
+  }
+  .about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+  }
+  
+  .about .row .content h3{
+    font-family: 'Tapestry', cursive;
+    font-size: 3rem;
+    color:#502e36;
+    margin-top: -29px;
+  }
+  about .row .content button{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    
+  }
+  
+  .about .row .content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color:#2e1e09;
+    padding:1rem 0;
+    margin-top: -44px;
+    margin-left: -3px;
+    line-height: 1.8;
+    font-family: 'Tapestry', cursive;
+  } 
+  h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #FFFDD0;
+    margin-top: 99px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    
+    
+  }
+  .card {
+      align-items: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+  }
+  .cards {
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  .cards .card img{
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+  .price {
+    color: rgb(56, 41, 41);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(53, 19, 19);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("./cofee/12.jpg");
+  
+    /* Control the height of the image */
+    min-height: 450px;
+    width: 1520px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    border-radius: 10px;
+    right: 1200px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(59, 47, 31);
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #301b1b;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(51, 22, 22);
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: brown;
+    color: rgb(68, 30, 30);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  
+  .footer{
+    background-color: black;
+    text-align: center;
+  }
+  
+  .footer .share{
+    padding:1rem 0;
+  }
+  
+  .footer .share a{
+    height: 7rem;
+    width: 8rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:rgb(63, 36, 36);
+    border:1rem solid rgba(255,255,255,.3);;
+    margin:.3rem;
+    border-radius: 50%;
+  }
+  
+  .footer .share a:hover{
+    background-color: b;
+  }
+  
+  .footer .links{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding:1rem 0;
+    gap:1rem;
+  }
+  
+  .footer .links a{
+    padding:0.7rem 1rem;
+    color:#fff;
+    border:var(--border);
+    font-size: 1rem;
+  }
+  
+  .footer .links a:hover{
+    background: brown;
+  }
+  
+  .footer .credit{
+    font-size: 1rem;
+    color:#fff;
+    font-weight: lighter;
+    padding:1.5rem;
+  }
+  
+  .footer .credit span{
+    color:brown;
+  }
